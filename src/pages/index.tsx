@@ -8,8 +8,10 @@ export default function Home() {
     <main
       className={`bg-white flex min-h-screen flex-col items-center  ${inter.className}`}
     >
+      <div className="w-[1400px]"> 
     <Header/>
     <HomeSection/>
+    </div>
     </main>
   );
 }

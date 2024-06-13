@@ -5,6 +5,7 @@ import User from "../assets/images/image.png";
 import mobile from "../assets/images/mobile.png";
 import search from "../assets/images/search.png";
 import cart from "../assets/images/cart.png";
+import Link from "next/link";
 
 export const Header = () => {
   const [inputValue, setInput] = useState();
@@ -41,7 +42,7 @@ export const Header = () => {
             Become a Supplier
           </div>
           <div className="flex justify-center items-center">Newsroom</div>
-          <div className="flex justify-center items-center  h-full">
+          <div className="flex justify-center items-center cursor-pointer h-full relative group">
             <div className="flex flex-col justify-center items-center">
               <Image
                 src={User}
@@ -51,6 +52,46 @@ export const Header = () => {
                 alt="User Icon"
               />
               <p>Profile</p>
+            </div>
+            <div className="absolute top-8 z-10 w-48 bg-white p-2 hidden group-hover:block shadow-md">
+              <ul className="text-black">
+                <li>
+                  <Link
+                    href=""
+                    className="block py-1 px-2 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Hello, user
+                  </Link>
+                  <hr className="my-1 border-gray-300" />
+                </li>
+                <li>
+                  <Link
+                    href="/myOrder"
+                    className="block py-1 px-2 hover:bg-gray-100 cursor-pointer"
+                  >
+                    My Orders
+                  </Link>
+                  <hr className="my-1 border-gray-300" />
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    className="block py-1 px-2 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Delete account
+                  </Link>
+                  <hr className="my-1 border-gray-300" />
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    className="block py-1 px-2 hover:bg-gray-100 cursor-pointer"
+                  >
+                    Logout
+                  </Link>
+                  <hr className="my-1 border-gray-300" />
+                </li>
+              </ul>
             </div>
           </div>
           <div className="flex justify-center items-center  h-full">
