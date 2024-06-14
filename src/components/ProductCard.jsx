@@ -5,13 +5,7 @@ import productImage from "../assets/images/productImage.png";
 export const ProductCard = ({ title }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg p-4 bg-white text-black cursor-pointer">
-      <Image
-        className="w-full"
-        src={productImage}
-        alt={title}
-        height={190}
-        width={100}
-      />
+      <Image className="w-full" src={productImage} alt={title} width={200} />
       <div className="px-2 py-4">
         <div className="font-semibold  text-gray-400 mb-1">{title}</div>
         <div className="flex gap-2 mb-1">

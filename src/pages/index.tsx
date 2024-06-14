@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`bg-white flex min-h-screen flex-col items-center  ${inter.className}`}
+      className={`bg-white flex min-h-screen flex-col items-center justify-center ${inter.className}`}
     >
-      <div className="w-[1380px]"> 
+      <div className="max-w-[1380px]"> 
     <Header/>
     <HomeSection/>
     </div>

@@ -3,8 +3,10 @@ import { ProductCard } from "./ProductCard";
 
 export const HomeSection = () => {
   return (
-    <div>
-      <h2 className="text-center">Home</h2>
+    <div className="pt-[90px]">
+      <h2 className="text-center text-black font-semibold text-xl">
+        Welcome to Meesho
+      </h2>
       <div className="flex gap-4 justify-between flex-wrap">
         {Array(30)
           .fill(2)
