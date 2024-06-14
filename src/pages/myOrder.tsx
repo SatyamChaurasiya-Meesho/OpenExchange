@@ -9,9 +9,9 @@ export default function MyOrder() {
     <main
       className={`bg-white text-black p-4 flex min-h-screen flex-col items-center ${inter.className}`}
     >
-      <div className="w-full max-w-6xl"> 
+      <div className="max-w-[1380px]"> 
         <h2 className='text-center text-2xl font-semibold mb-6'>My Orders</h2>
-        <div className="flex-col gap-2">
+        <div className="flex-col">
           <MyProductCard />
           <MyProductCard />
           <MyProductCard />
