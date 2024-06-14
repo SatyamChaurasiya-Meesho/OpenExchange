@@ -32,6 +32,7 @@ const OrderCard: FC<OrderCardProps> = ({ imageSrc, brandName, productName, size,
 
   const [selectedIssue, setSelectedIssue] = useState<string>('');
   const [selectedSubIssue, setSelectedSubIssue] = useState<string>('');
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const handleIssueChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedIssue(event.target.value);
@@ -47,9 +48,35 @@ const OrderCard: FC<OrderCardProps> = ({ imageSrc, brandName, productName, size,
   const isContinueEnabled = selectedIssue !== '' && selectedSubIssue !== '';
 
   const router = useRouter();
+const productId="1470138"
+ const handleContinue = async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch('http://localhost:4000/returnReason', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          productId,
+          issues: { main: selectedIssue, sub: selectedSubIssue },
+        }),
+      });
 
-  const handleContinue = () => {
-    router.push('/recommendations');
+      const result = await response.json();
+      console.log(result);
+
+      if (result.success) {
+        router.push('/recommendations');
+      } else {
+        // Handle error scenario
+        console.error('Failed to submit return reason:', result.message);
+      }
+    } catch (error) {
+      console.error('Error submitting return reason:', error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleBackToOrders = () => {
