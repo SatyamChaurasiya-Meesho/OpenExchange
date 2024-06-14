@@ -1,0 +1,475 @@
+{
+    "categories": [
+      {
+        "name": "Clothing",
+        "issues": [
+          {
+            "name": "Size",
+            "sub_issues": ["Too Large", "Too Small", "Incorrect size received"]
+          },
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Fabric Feels Cheap",
+              "Fabric is Itchy/Uncomfortable"
+            ]
+          },
+          {
+            "name": "Defective/Damaged",
+            "sub_issues": [
+              "Torn Fabric",
+              "Broken Zipper/Button",
+              "Stains on Fabric",
+              "Holes in Fabric"
+            ]
+          },
+          {
+            "name": "Not durable",
+            "sub_issues": [
+              "Worn Out Quickly",
+              "Stretched Out of Shape",
+              "Pilling of Fabric",
+              "Seams Coming Apart"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Color",
+              "Wrong Size",
+              "Wrong Style",
+              "Completely Different Product",
+              "Product Not as Described"
+            ]
+          },
+          {
+            "name": "Appearance/Style",
+            "sub_issues": [
+              "Pattern Different",
+              "Design Details Different",
+              "Overall Look Different"
+            ]
+          },
+          {
+            "name": "Fabric/Material",
+            "sub_issues": [
+              "Different Fabric Type",
+              "Different Fabric Quality",
+              "Different Texture/Feel"
+            ]
+          },
+          {
+            "name": "Features/Specifications",
+            "sub_issues": [
+              "Missing Features",
+              "Different Specifications",
+              "Incorrect Details Listed"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "Found a Better Product",
+              "No Longer Needed",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": ["Text Input for Detailed Explanation"]
+          }
+        ]
+      },
+      {
+        "name": "Electronics",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Build Quality",
+              "Cheap Materials",
+              "Poor Assembly",
+              "Flimsy Construction",
+              "Parts Not Fitting Well"
+            ]
+          },
+          {
+            "name": "Defective or Damaged",
+            "sub_issues": [
+              "Broken Item",
+              "Non-functioning Buttons",
+              "Cracked Casing",
+              "Dead on Arrival"
+            ]
+          },
+          {
+            "name": "Not Durable",
+            "sub_issues": [
+              "Stopped Working Quickly",
+              "Battery Deterioration",
+              "Components Worn Out",
+              "Easily Scratched"
+            ]
+          },
+          {
+            "name": "Poor craftsmanship",
+            "sub_issues": [
+              "Loose Parts",
+              "Misaligned Components",
+              "Poor Finishing",
+              "Inconsistent Performance"
+            ]
+          },
+          {
+            "name": "Performance Issue",
+            "sub_issues": [
+              "Not Functioning Properly",
+              "Slow Performance",
+              "Overheating",
+              "Poor Battery Life",
+              "Connectivity Issues",
+              "Audio/Video Problems"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Color",
+              "Wrong Model",
+              "Wrong Specifications",
+              "Completely Different Product"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Features Missing or Different",
+              "Performance Not as Expected",
+              "Appearance/Design Different",
+              "Size/Dimensions Different"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "Found a Better Price",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": ["Same for every product"]
+          }
+        ]
+      },
+      {
+        "name": "Books",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Damaged Pages or Cover",
+              "Torn Pages",
+              "Bent Cover",
+              "Water Damage",
+              "Stained Pages",
+              "Poor Print Quality",
+              "Faded Text",
+              "Blurry Printing",
+              "Misaligned Printing",
+              "Ink Smudges",
+              "Binding Issue",
+              "Loose Binding",
+              "Pages Falling Out",
+              "Uneven Binding",
+              "Binding Coming Apart",
+              "Misprinted Content",
+              "Missing Pages",
+              "Duplicate Pages",
+              "Printing Errors",
+              "Incorrect Text"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Title",
+              "Wrong Author",
+              "Wrong Edition",
+              "Completely Different Book"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Content",
+              "Different Edition",
+              "Different Format",
+              "Missing Supplementary Material"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "No Longer Interested",
+              "Found a Different Book",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": [
+              "Found a Better Price",
+              "Other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beauty & Health",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Expired or Spoiled",
+              "Poor Packaging",
+              "Allergic Reaction",
+              "Ineffective Product"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Product",
+              "Wrong Brand",
+              "Wrong Variant/Type",
+              "Completely Different Item"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Ingredients",
+              "Different Size/Weight",
+              "Different Usage Instructions"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "No Longer Needed",
+              "Found a Different Product",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": [
+              "Found a Better Price",
+              "Other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jewellery & Accessories",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Damaged or Broken",
+              "Poor Material Quality",
+              "Tarnished Metal",
+              "Incorrect Sizing or Fit"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Product",
+              "Wrong Color",
+              "Wrong Size/Length",
+              "Completely Different Item"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Material",
+              "Different Design",
+              "Different Size/Length"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "No Longer Needed",
+              "Found a Different Item",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": [
+              "Found a Better Price",
+              "Other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Musical Instruments",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Damaged or Broken",
+              "Faulty Hardware",
+              "Poor Sound Quality",
+              "Defective Parts or Components"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Instrument",
+              "Wrong Model",
+              "Wrong Size/Specification",
+              "Completely Different Instrument"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Features",
+              "Different Material",
+              "Missing Components",
+              "Not Suitable for Instrument"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "No Longer Needed",
+              "Found a Different Instrument",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": [
+              "Found a Better Price",
+              "Other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sports & Fitness",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Material/Build Quality",
+              "Defective or Damaged",
+              "Not Durable",
+              "Poor Craftsmanship"
+            ]
+          },
+          {
+            "name": "Performance Issue",
+            "sub_issues": [
+              "Not Functioning Properly",
+              "Slow Performance",
+              "Overheating",
+              "Poor Battery Life",
+              "Connectivity Issues",
+              "Audio/Video Problems"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Color",
+              "Wrong Size",
+              "Wrong Model",
+              "Completely Different Product"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Appearance/Design",
+              "Different Features/Specifications",
+              "Performance Not as Expected",
+              "Size/Dimensions Different"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "Found a Different Product",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": ["Same for every product"]
+          }
+        ]
+      },
+      {
+        "name": "Home & Kitchen",
+        "issues": [
+          {
+            "name": "Quality Issue",
+            "sub_issues": [
+              "Material/Build Quality",
+              "Defective or Damaged",
+              "Not Durable",
+              "Poor Craftsmanship"
+            ]
+          },
+          {
+            "name": "Performance Issue",
+            "sub_issues": [
+              "Not Functioning Properly",
+              "Appliance Not Working",
+              "Malfunctions During Use",
+              "Not Providing Expected Results",
+              "Poor Performance"
+            ]
+          },
+          {
+            "name": "Wrong Item Received",
+            "sub_issues": [
+              "Wrong Color",
+              "Wrong Size",
+              "Wrong Model",
+              "Completely Different Product"
+            ]
+          },
+          {
+            "name": "Product Not as Described",
+            "sub_issues": [
+              "Different Appearance/Design",
+              "Different Features/Specifications",
+              "Performance Not as Expected",
+              "Size/Dimensions Different"
+            ]
+          },
+          {
+            "name": "Changed Mind",
+            "sub_issues": [
+              "Found a Different Product",
+              "Other"
+            ]
+          },
+          {
+            "name": "Other",
+            "sub_issues": ["Same for every product"]
+          }
+        ]
+      }
+    ]
+  }
